@@ -1,0 +1,15 @@
+{
+	"nodes":[
+		{"id":"003605a7c32501d6","type":"text","text":"#User Registration","x":-440,"y":-130,"width":285,"height":50},
+		{"id":"b17be854f2f141d9","type":"text","text":"#User Login","x":-380,"y":0,"width":165,"height":60},
+		{"id":"820a21642351e2d2","type":"text","text":"#User Profile Edit","x":-400,"y":140,"width":205,"height":60},
+		{"id":"dcac745be74861ad","type":"text","text":"#User Upload Book","x":-410,"y":260,"width":225,"height":60},
+		{"id":"f91d80ce07c3ad5a","type":"text","text":"#User Payment Details","x":-422,"y":380,"width":250,"height":60}
+	],
+	"edges":[
+		{"id":"1124dd3b2c7b623f","fromNode":"003605a7c32501d6","fromSide":"bottom","toNode":"b17be854f2f141d9","toSide":"top"},
+		{"id":"dafe2cfae4fa2d9e","fromNode":"b17be854f2f141d9","fromSide":"bottom","toNode":"820a21642351e2d2","toSide":"top"},
+		{"id":"53f07bc53a40ed92","fromNode":"820a21642351e2d2","fromSide":"bottom","toNode":"dcac745be74861ad","toSide":"top"},
+		{"id":"ce0eb8ecab8401a1","fromNode":"dcac745be74861ad","fromSide":"bottom","toNode":"f91d80ce07c3ad5a","toSide":"top"}
+	]
+}
